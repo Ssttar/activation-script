@@ -74,7 +74,7 @@ export const activator: Activator = {
         $done({
           url: $request.url.replace(
             'https://backend.raycast.com',
-            'http://127.0.0.1:3000',
+            'http://192.168.0.5:3000',
           ),
           headers: $request.headers,
           body: $request.body,
